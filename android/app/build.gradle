@@ -42,6 +42,10 @@ react {
     //   A list of extra flags to pass to the 'bundle' commands.
     //   See https://github.com/react-native-community/cli/blob/main/docs/commands.md#bundle
     // extraPackagerArgs = []
+    project.ext.vectoricons = [
+          iconFontNames: [ 'MaterialCommunityIcons.ttf', 'EvilIcons.ttf',"MaterialIcons.ttf" ,"Ionicons.ttf","FontAwesome.ttf","AntDesign.ttf"] // Name of the font files you want to copy
+    ]
+    apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
     /* Hermes Commands */
     //   The hermes compiler command to run. By default it is 'hermesc'
@@ -57,7 +61,7 @@ react {
 /**
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
  */
-def enableProguardInReleaseBuilds = false
+def enableProguardInReleaseBuilds = true
 
 /**
  * The preferred build flavor of JavaScriptCore (JSC)
@@ -77,9 +81,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.reelzzz_app"
+    namespace "com.reelzzz_application"
     defaultConfig {
-        applicationId "com.reelzzz_app"
+        applicationId "com.reelzzz_application"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

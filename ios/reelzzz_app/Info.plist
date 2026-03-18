@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>reelzzz_app</string>
+	<string>Reelzzz</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,6 +22,39 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.934171381237-e97v98pi6dfe1e503tv0pj73c38vddnv</string>
+				<string>fb1215583023410493</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>reelzzz</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>reelzzz</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>934171381237-e97v98pi6dfe1e503tv0pj73c38vddnv.apps.googleusercontent.com</string>
+	<key>FacebookAppID</key>
+	<string>1215583023410493</string>
+	<key>FacebookDisplayName</key>
+	<string>Reelzzz</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -34,9 +67,17 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>RCTNewArchEnabled</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Let me use your media library</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need your permission to access your camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need your permission to access your photo library</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need your permission to access your microphone</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +92,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Black.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-Light.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>Audiowide-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
