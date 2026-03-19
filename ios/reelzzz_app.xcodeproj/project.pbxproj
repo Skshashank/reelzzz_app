@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		20C9042CEBBE403582E270E0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7F464D2499B4D638681549E /* Poppins-Bold.ttf */; };
-		3BF985BE36965CB5D5E31251 /* libPods-reelzzz_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F391C5BFBB23AB66EE585E1 /* libPods-reelzzz_app.a */; };
 		7117631A00CB4CE8946A6AEC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F436147EEDF04FD78B2073E1 /* Poppins-Medium.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		7B2AD88CFF2A4A3BA13925C3 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 507ABAF088124010A7B4D593 /* Poppins-Regular.ttf */; };
+		817E08611919B00E8CCFDA28 /* libPods-reelzzz_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A9E008143013DD3E9EB217 /* libPods-reelzzz_app.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8AD374ED46994CF39EEEBC0B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E6566E88074F8C9305D375 /* Poppins-Black.ttf */; };
 		8E0C76BC21A34EC0A0E984C2 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860692A1634A4E74A909C967 /* Poppins-Light.ttf */; };
@@ -22,23 +22,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03761A61BC6C17C2EBBF0CD5 /* Pods-reelzzz_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reelzzz_app.release.xcconfig"; path = "Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* reelzzz_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reelzzz_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reelzzz_app/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reelzzz_app/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = reelzzz_app/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		507ABAF088124010A7B4D593 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		56A9E008143013DD3E9EB217 /* libPods-reelzzz_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reelzzz_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		703AFEDD5D224ED99B9864CF /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = reelzzz_app/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reelzzz_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		860692A1634A4E74A909C967 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
-		9F391C5BFBB23AB66EE585E1 /* libPods-reelzzz_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reelzzz_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A233A3298A0570EF5E6348C9 /* Pods-reelzzz_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reelzzz_app.release.xcconfig"; path = "Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app.release.xcconfig"; sourceTree = "<group>"; };
+		A24FFC0C9360E7A3825ADF44 /* Pods-reelzzz_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reelzzz_app.debug.xcconfig"; path = "Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app.debug.xcconfig"; sourceTree = "<group>"; };
 		A7F464D2499B4D638681549E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		B197E6D895E0457E900FA15F /* Audiowide-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Audiowide-Regular.ttf"; path = "../src/assets/fonts/Audiowide-Regular.ttf"; sourceTree = "<group>"; };
 		B3E6566E88074F8C9305D375 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F436147EEDF04FD78B2073E1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		FA27AA3CCD2861D04C54639B /* Pods-reelzzz_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reelzzz_app.debug.xcconfig"; path = "Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF985BE36965CB5D5E31251 /* libPods-reelzzz_app.a in Frameworks */,
+				817E08611919B00E8CCFDA28 /* libPods-reelzzz_app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9F391C5BFBB23AB66EE585E1 /* libPods-reelzzz_app.a */,
+				56A9E008143013DD3E9EB217 /* libPods-reelzzz_app.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,8 +122,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA27AA3CCD2861D04C54639B /* Pods-reelzzz_app.debug.xcconfig */,
-				03761A61BC6C17C2EBBF0CD5 /* Pods-reelzzz_app.release.xcconfig */,
+				A24FFC0C9360E7A3825ADF44 /* Pods-reelzzz_app.debug.xcconfig */,
+				A233A3298A0570EF5E6348C9 /* Pods-reelzzz_app.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -135,13 +135,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reelzzz_app" */;
 			buildPhases = (
-				3AFF30CCC362537203B0AFD5 /* [CP] Check Pods Manifest.lock */,
+				BF3827279C17B2FAD434A552 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3CE9417A66F6C4D5F81CAAE5 /* [CP] Embed Pods Frameworks */,
-				AA353B6098C4DF75651EF662 /* [CP] Copy Pods Resources */,
+				0F675A817C55B6B5D5274805 /* [CP] Embed Pods Frameworks */,
+				2A227350FFEECF02F234C3CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,7 +220,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"\\\"$WITH_ENVIRONMENT\\\" \\\"$REACT_NATIVE_XCODE\\\"\"\n";
 		};
-		3AFF30CCC362537203B0AFD5 /* [CP] Check Pods Manifest.lock */ = {
+		0F675A817C55B6B5D5274805 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A227350FFEECF02F234C3CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF3827279C17B2FAD434A552 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,40 +276,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3CE9417A66F6C4D5F81CAAE5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA353B6098C4DF75651EF662 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reelzzz_app/Pods-reelzzz_app-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -292,7 +292,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA27AA3CCD2861D04C54639B /* Pods-reelzzz_app.debug.xcconfig */;
+			baseConfigurationReference = A24FFC0C9360E7A3825ADF44 /* Pods-reelzzz_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -322,7 +322,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03761A61BC6C17C2EBBF0CD5 /* Pods-reelzzz_app.release.xcconfig */;
+			baseConfigurationReference = A233A3298A0570EF5E6348C9 /* Pods-reelzzz_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -22,6 +22,7 @@ target 'reelzzz_app' do
 
   # NitroModules (required by react-native-mmkv v4+)
   pod 'NitroModules', :path => '../node_modules/react-native-nitro-modules'
+  pod 'RNWorklets', :path => '../node_modules/react-native-worklets'
 
   # ENABLE THIS FOR CACHEING THE VIDEOS 
   pod 'SPTPersistentCache', :modular_headers => true;
